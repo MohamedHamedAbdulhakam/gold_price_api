@@ -5,6 +5,20 @@ class HomeScreenBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(  backgroundColor: Colors.black,
+      appBar: AppBar(title: Center(child: Text('TODAY PRICE')),),
+      body: Container(
+        margin: EdgeInsets.all(10),
+        child: Row(
+          children: [Column(
+            children: [
+              
+            ],
+          )],
+        ),
+      ),
+    
+    );
+    
   }
 }
