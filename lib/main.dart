@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:gold_price_api/home_screen_body.dart';
 
@@ -10,6 +11,8 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const HomeScreenBody();
+    return MaterialApp(
+      home: const HomeScreenBody(),
+    );
   }
 }

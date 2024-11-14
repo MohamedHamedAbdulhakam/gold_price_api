@@ -12,7 +12,10 @@ class HomeScreenBody extends StatelessWidget {
         child: Row(
           children: [Column(
             children: [
-              
+              Container(
+                height: 100,
+                width: 100,
+                child: Image.asset('assets/gold.png')),
             ],
           )],
         ),
